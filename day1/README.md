@@ -48,10 +48,19 @@ Purpose: Network isolation and security segmentation
 
 ![](<Vpc-config.png>)
 
+
+## Component Interactions and Purposes
+
+ 1. VM Instance: VM Instance deployed in the web subnet, can access the internet and communicate with other resources in the VPC.
+ 2. Cloud Storage: Provides persistent storage that can be accessed by the VM instance for data storage and backup.
+ 3. VPC Subnets: Enable network segmentation between different application tiers (web and database).
+
+
+
 ## Setup Instructions
 ``` 
 
-Task 1: Create VM Instance
+1.  Create VM Instance
 
 Navigate to Compute Engine > VM instances
 Click "Create Instance"
@@ -59,7 +68,7 @@ Configure with settings listed above
 Enable HTTP/HTTPS traffic in firewall settings
 Click "Create"
 
-Task 2: Create Cloud Storage Bucket
+2.  Create Cloud Storage Bucket
 
 Navigate to Cloud Storage > Buckets
 Click "Create Bucket"
@@ -67,7 +76,7 @@ Configure with globally unique name
 Upload a test file
 Verify file appears in bucket
 
-Task 3: Configure Custom VPC
+3. Configure Custom VPC
 
 Navigate to VPC network > VPC networks
 Click "Create VPC Network"
