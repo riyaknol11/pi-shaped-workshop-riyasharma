@@ -18,7 +18,7 @@ compute.zones.get
 compute.zones.list
 compute.projects.get
 
-![](<CustomRoles.png>)
+![](<screenshots/CustomRoles.png>)
 
 2. Service Account Implementation
 
@@ -29,7 +29,7 @@ Assigned Roles:
 roles/logging.logWriter - For writing logs
 roles/monitoring.metricWriter - For sending metrics
 
-![](ServiceAccount.png)>
+![](screenshots/ServiceAccount.png)>
 
 VM Integration: Attached to test-vm instance
 
@@ -53,7 +53,7 @@ Scope: Limited VM operations
 Use Case: Developers needing specific VM control
 
 
-![](<IAMRoles.png>)
+![](<screenshots/IAMRoles.png>)
 
 
 ### Security Implementation
@@ -69,7 +69,7 @@ Minimal service account permissions
 Regular role reviews and audits
 
 
-![](<API_Access.png>)
+![](<screenshots/API_Access.png>)
 
 ### Core Concept Answers
 1. Why is it dangerous to assign Editor role to all users in a production environment?
