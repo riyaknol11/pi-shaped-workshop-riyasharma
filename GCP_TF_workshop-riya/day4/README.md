@@ -97,8 +97,8 @@ This project demonstrates advanced Terraform concepts including modularization, 
    ```
 ![Deployed to dev](<screenshots/Dev-deployment.png>)
 ![Deployed to staging](<screenshots/Staging-deployment.png>)
-![alt text](<Screenshot from 2025-07-03 13-27-20.png>)
-![alt text](<Screenshot from 2025-07-03 13-27-28.png>)
+![alt text](<screenshots/Screenshot from 2025-07-03 13-27-20.png>)
+![alt text](<screenshots/Screenshot from 2025-07-03 13-27-28.png>)
 ### 4. Running the Workspace Demo
 
 ```bash
